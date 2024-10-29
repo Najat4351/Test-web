@@ -1,0 +1,291 @@
+.allcontent{
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+  justify-content: center;
+}
+.content{
+ justify-content: center;
+ display: flex;
+ flex-direction: row;
+ max-height: 250px;
+ 
+}
+.content img{
+
+  height: 190px;
+  width:210px;
+border-radius: 9px;
+  
+  border: 4px solid black;
+ 
+}
+
+ 
+ .content > .clickleft {
+  max-height: 20px;
+
+margin-top: 90px;
+ border-radius: 45%;
+ font-size: 1em;
+ border:1px  solid  black;
+cursor: pointer;
+ padding:auto;
+margin-right: 60px;
+ }
+ .content > .clickright {
+  max-height: 20px;
+
+margin-top: 90px;
+ border-radius: 45%;
+ font-size: 1em;
+ border:1px  solid  black;
+cursor: pointer;
+ padding:auto;
+margin-left: 60px;
+ }
+
+.content button:hover{
+  box-shadow: 0.5px 0.5px 10px 2px  white;
+}
+.questions{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width:400px;
+  margin-left: 37%;
+  gap: 1px;
+background-color: beige;
+margin-bottom: 20px;
+border-radius: 12px;
+border: 5px solid black;
+ 
+}
+.questions button{
+  margin-left:60px ;
+  margin-right: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px;
+  padding-left: 9px;
+  padding-right: 5px;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+.questions p{
+  font-size: 20px;
+
+}
+.allcontent1{
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+  justify-content: center;
+}
+.content1{
+ justify-content: center;
+ display: flex;
+ flex-direction: row;
+ max-height: 250px;
+ 
+}
+.content1 img{
+
+  height: 190px;
+  width:210px;
+border-radius: 9px;
+  
+  border: 4px solid black;
+ 
+}
+
+ 
+ .content1 > .clickleft1 {
+  max-height: 20px;
+
+margin-top: 90px;
+ border-radius: 45%;
+ font-size: 1em;
+ border:1px  solid  black;
+cursor: pointer;
+ padding:auto;
+margin-right: 60px;
+ }
+ .content1 > .clickright1 {
+  max-height: 20px;
+
+margin-top: 90px;
+ border-radius: 45%;
+ font-size: 1em;
+ border:1px  solid  black;
+cursor: pointer;
+ padding:auto;
+margin-left: 60px;
+ }
+
+.content1 button:hover{
+  box-shadow: 0.5px 0.5px 10px 2px  white;
+}
+.questions1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width:400px;
+  margin-left: 37%;
+  gap: 1px;
+background-color: beige;
+margin-bottom: 20px;
+border-radius: 12px;
+border: 5px solid black;
+ 
+}
+.questions1 button{
+  margin-left:60px ;
+  margin-right: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px;
+  padding-left: 9px;
+  padding-right: 5px;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+.questions1 p{
+  font-size: 20px;
+
+}
+.allcontent2{
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+  justify-content: center;
+}
+.content2{
+ justify-content: center;
+ display: flex;
+ flex-direction: row;
+ max-height: 250px;
+ 
+}
+.content2 img{
+
+  height: 190px;
+  width:210px;
+border-radius: 9px;
+  
+  border: 4px solid black;
+ 
+}
+
+ 
+ .content2 > .clickleft2 {
+  max-height: 20px;
+
+margin-top: 90px;
+ border-radius: 45%;
+ font-size: 1em;
+ border:1px  solid  black;
+cursor: pointer;
+ padding:auto;
+margin-right: 60px;
+ }
+ .content2 > .clickright2 {
+  max-height: 20px;
+
+margin-top: 90px;
+ border-radius: 45%;
+ font-size: 1em;
+ border:1px  solid  black;
+cursor: pointer;
+ padding:auto;
+margin-left: 60px;
+ }
+
+.content2 button:hover{
+  box-shadow: 0.5px 0.5px 10px 2px  white;
+}
+.questions2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width:400px;
+  margin-left: 37%;
+  gap: 1px;
+background-color: beige;
+margin-bottom: 20px;
+border-radius: 12px;
+border: 5px solid black;
+ 
+}
+.questions2 button{
+  margin-left:60px ;
+  margin-right: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px;
+  padding-left: 9px;
+  padding-right: 5px;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+.questions2 p{
+  font-size: 20px;
+
+}
+
+
+.username{
+  text-align: center;
+  margin-top: 200px;
+  
+
+}
+.username label{
+  margin-bottom: 40px;
+  margin-top: 0px;
+  font-size: 3.5em;
+  color: black;
+  font-family: cursive;
+}
+body{
+   background-size: cover;
+  background-color: #646;
+  max-height: 400px;
+ 
+  font-weight: bold;
+}
+.username button{
+  
+  
+  color: black;
+  margin-top: 50px;
+  padding: 7px;
+  width: 10%;
+  font-family: cursive;
+  border: 6px  solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+.username input{
+  margin-top: 60px;
+  padding: 15px;
+  width: 40%;
+  font-size: 1.5em;
+  color: black;
+  font-family: cursive;
+  border: 6px  solid black;
+   border-radius: 12px;
+   font-weight: bold;
+
+}
+p{
+  color: beige;
+  text-align: center;
+  font-size: 1.85em;
+  font-weight: bold;
+  font-family: cursive;
+}
